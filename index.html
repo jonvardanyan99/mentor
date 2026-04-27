@@ -5,277 +5,273 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MENTOR</title>
   <link rel="icon" href="assets/icons/logo.jpg">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="styles/animate.css">
-  <link rel="stylesheet" href="styles/index.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" rel="stylesheet">
+  <link href="./styles/animate.css" rel="stylesheet">
   <link href="./styles/output.css" rel="stylesheet">
 </head>
 <body>
-  <nav class="wow bounce">
-    <a href="#header">MEN<span>TOR</span></a>
-    <ul>
-      <li><a href="#features">Features</a></li>
-      <li><a href="#organisations">Organisations</a></li>
-      <li><a href="#cources">Cources</a></li>
-      <li><a href="#pricing">Pricing</a></li>
-      <li><a href="#singIn">Sign in</a></li>
-      <li><a href="#freeTrail">Free Trail</a></li>
+  <nav class="wow bounce sticky top-0 flex justify-around items-center gap-10 bg-white border-b border-gray-300 z-3 p-3 max-[760px]:p-4 max-[540px]:flex-col max-[540px]:gap-2">
+    <a href="#header" class="text-[36px] font-bold text-primary transition-all hover:text-black">MEN<span class="font-thin">TOR</span></a>
+    <ul class="flex items-center gap-8 max-[760px]:grid max-[760px]:grid-cols-3 max-[760px]:gap-4">
+      <li>
+        <a class="text-[14px] text-gray-500 font-bold transition-all hover:text-primary" href="#features">Features</a>
+      </li>
+      <li>
+        <a class="text-[14px] text-gray-500 font-bold transition-all hover:text-primary" href="#organisations">Organisations</a>
+      </li>
+      <li>
+        <a class="text-[14px] text-gray-500 font-bold transition-all hover:text-primary" href="#cources">Cources</a>
+      </li>
+      <li>
+        <a class="text-[14px] text-gray-500 font-bold transition-all hover:text-primary" href="#pricing">Pricing</a>
+      </li>
+      <li>
+        <a class="text-[14px] text-gray-500 font-bold transition-all hover:text-primary" href="#sign-in">Sign in</a>
+      </li>
+      <li>
+        <a class="text-[14px] text-white font-bold bg-primary border border-primary rounded-[26px] transition-all p-[12px_16px] hover:text-primary hover:bg-white max-[760px]:p-[6px_8px]" href="#free-trail">Free Trail</a>
+      </li>
     </ul>
   </nav>
-  <header id="header" class="wow shake">
-    <div>
-      <h1>TRUST & QUALITY</h1>
-      <h3>Learning Today . . . Leading Tomorrow.</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium enim repellat sapiente quos architecto
-      <br>Laudantium enim repellat sapiente quos architecto</p>
-      <a href="">GET A QOUTE</a>
+  <header id="header" class="wow shake relative flex justify-center items-center bg-[url(../assets/images/background.jpg)] bg-cover bg-center p-15 after:absolute after:top-0 after:right-0 after:bottom-0 after:left-0 after:content-[''] after:bg-[rgba(12,11,11,0.82)] after:z-1 max-sm:p-7.5">
+    <div class="flex flex-col items-center gap-7 z-2">
+      <h2 class="text-[26px] font-bold text-white text-center border-[6px] border-primary p-5 max-sm:text-[20px]">TRUST & QUALITY</h2>
+      <p class="text-[32px] font-thin text-white text-center max-sm:text-[26px]">Learning Today . . . Leading Tomorrow.</p>
+      <p class="max-w-175 text-[14px] leading-normal text-white text-center max-sm:text-[10px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium enim repellat sapiente quos architecto Laudantium enim repellat sapiente quos architecto</p>
+      <button class="text-[12px] text-white bg-primary rounded-sm cursor-pointer transition-all p-4 hover:text-primary hover:bg-white">GET A QOUTE</button>
     </div>
   </header>
-  <article>
-    <section id="features">
-      <h1>Features</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae,
-      <br>maiores, magni dolorum aliquam.</p>
-      <hr>
-      <div>
+  <article id="features" class="flex flex-col items-center p-11">
+    <h3 class="text-[26px] font-bold mb-7">Features</h3>
+    <p class="max-w-175 leading-normal text-gray-500 text-center mb-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae, maiores, magni dolorum aliquam.</p>
+    <hr class="w-7.5 h-0.75 bg-blue-600 mb-11">
+    <section class="flex flex-wrap justify-center gap-20">
+      <div class="max-w-113 flex gap-10">
+        <i class="fa-brands fa-css3 text-primary text-[40px]"></i>
         <div>
-          <i class="fa fa-css3"></i>
-          <div>
-            <h2>Latest Technologies</h2>
-            <p>Donec et lectus bibendum dolor dictum auctor in ac erat. Vestibulum egestas 
-            sollicitudin metus non urna in eros tincidunt convallis id id 
-            nisi in interdum.</p>
-          </div>
-        </div>
-        <div>
-          <i class="fa fa-drupal"></i>
-          <div>
-            <h2>Toons Background</h2>
-            <p>Donec et lectus bibendum dolor dictum auctor in ac erat. 
-            Vestibulum egestas sollicitudin metus non 
-            urna in eros tincidunt convallis id id nisi in interdum.</p>
-          </div>
-        </div>
-        <div>
-          <i class="fa fa-trophy"></i>
-          <div>
-            <h2>Award Winning Design</h2>
-            <p>Donec et lectus bibendum dolor dictum auctor in ac erat. 
-            Vestibulum egestas sollicitudin metus 
-            non urna in eros tincidunt convallis id id nisi in interdum.</p>
-          </div>
+          <h4 class="text-[20px] font-bold mb-5">Latest Technologies</h4>
+          <p class="text-gray-500 text-[18px]">Donec et lectus bibendum dolor dictum auctor in ac erat. Vestibulum egestas 
+          sollicitudin metus non urna in eros tincidunt convallis id id 
+          nisi in interdum.</p>
         </div>
       </div>
-    </section>
-    <section id="organisations">
-      <div>
+      <div class="max-w-113 flex gap-10">
+        <i class="fa-brands fa-drupal text-primary text-[40px]"></i>
         <div>
-          <span>65%</span>
-          <p>Say No!!</p>
-          <i class="fa fa-male"></i>
-        </div>
-        <div>
-          <span>20%</span>
-          <p>Says Yes!!</p>
-          <i class="fa fa-male"></i>
-        </div>
-        <div>
-          <span>15%</span>
-          <p>Can't Say!!</p>
-          <i class="fa fa-male"></i>
+          <h4 class="text-[20px] font-bold mb-5">Toons Background</h4>
+          <p class="text-gray-500 text-[18px]">Donec et lectus bibendum dolor dictum auctor in ac erat. 
+          Vestibulum egestas sollicitudin metus non 
+          urna in eros tincidunt convallis id id nisi in interdum.</p>
         </div>
       </div>
-      <div>
-        <h3>IS INCLUSIVE QUALITY <br>EDUCATION AFFORDABLE?</h3>
-        <h4>(Revised and Updated for 2045)</h4>
-        <p>Donec et lectus bibendum dolor dictum auctor in ac erat. Vestibulum <br>egestas sollicitudin 
-        metus non urna in eros tincidunt convallis id id nisi in <br>interdum.</p>
-      </div>
-    </section>
-  </article>
-  <article>
-    <section>
-      <h1>Subscribe Now</h1>
-      <p>Sign up for our free weekly software design 
-      courses, we’ll send them right to your inbox.</p>
-      <div>
-        <input type="email" placeholder="Enter Your Email Addres">
-        <button>Subscribe</button>
-      </div>
-    </section>
-    <section>
-      <h1>Upcoming Workshop</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae,
-      <br>maiores, magni dolorum aliquam.</p>
-      <hr>
-      <div>
+      <div class="max-w-113 flex gap-10">
+        <i class="fa-solid fa-trophy text-primary text-[40px]"></i>
         <div>
-          <i class="fa fa-html5 color-green"></i>
-          <h2>Mentor HTML5 Workshop</h2>
-        </div>
-        <div>
-          <i class="fa fa-css3"></i>
-          <h2>Mentor CSS3 Workshop</h2>
-        </div>
-        <div>
-          <i class="fa fa-joomla color-green"></i>
-          <h2>Mentor Joomla Workshop</h2>
-        </div>
-      </div>
-    </section>
-    <section>
-      <h1>Meet Our Faculty Member</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae,
-      <br>maiores, magni dolorum aliquam.</p>
-      <hr>
-      <div>
-        <div>
-          <img src="assets/images/mentor.jpg" alt="mentor">
-          <h2>Bryan Johnson</h2>
-          <h4>Lead Software Engineer</h4>
-          <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Donec Et Placerat Dui. 
-          In Posuere Metus Et Elit Placerat Tristique. Maecenas Eu Est In Sem Ullamcorper Tincidunt.</p>
-        </div>
-        <div>
-          <img src="assets/images/mentor.jpg" alt="mentor">
-          <h2>Bryan Johnson</h2>
-          <h4>Lead Software Engineer</h4>
-          <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Donec Et Placerat Dui. 
-          In Posuere Metus Et Elit Placerat Tristique. Maecenas Eu Est In Sem Ullamcorper Tincidunt.</p>
-        </div>
-        <div>
-          <img src="assets/images/mentor.jpg" alt="mentor">
-          <h2>Bryan Johnson</h2>
-          <h4>Lead Software Engineer</h4>
-          <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Donec Et Placerat Dui. 
-          In Posuere Metus Et Elit Placerat Tristique. Maecenas Eu Est In Sem Ullamcorper Tincidunt.</p>
-        </div>
-      </div>
-    </section>
-    <section>
-      <h1>See What Our Customer Are Saying?</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae,
-      <br>maiores, magni dolorum aliquam.</p>
-      <hr>
-      <div>
-        <div>
-          <h2>"Proin gravida nibh vel velit auctor aliquet. 
-          Aenean <br>sollicitudin, nec sagittis sem"</h2>
-          <h4>Abraham Doe - Creative Dırector</h4>
-        </div>
-        <div>
-          <h2>"Proin gravida nibh vel velit auctor aliquet. 
-          Aenean <br>sollicitudin, nec sagittis sem"</h2>
-          <h4>Abraham Doe - Creative Dırector</h4>
+          <h4 class="text-[20px] font-bold mb-5">Award Winning Design</h4>
+          <p class="text-gray-500 text-[18px]">Donec et lectus bibendum dolor dictum auctor in ac erat. 
+          Vestibulum egestas sollicitudin metus 
+          non urna in eros tincidunt convallis id id nisi in interdum.</p>
         </div>
       </div>
     </section>
   </article>
-  <article>
-    <section id="cources">
-      <h1>Courses</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae,
-      <br>maiores, magni dolorum aliquam.</p>
-      <hr>
-      <div>
-        <div class="overlay">
-          <h3>Cource Name</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, 
-          nostrum veniam consequatur libero fugiat, similique quis.</p>
-        </div>
-        <div class="overlay">
-          <h3>Cource Name</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, 
-          nostrum veniam consequatur libero fugiat, similique quis.</p>
-        </div>
-        <div class="overlay">
-          <h3>Cource Name</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, 
-          nostrum veniam consequatur libero fugiat, similique quis.</p>
-        </div>
-        <div class="overlay">
-          <h3>Cource Name</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, 
-          nostrum veniam consequatur libero fugiat, similique quis.</p>
-        </div>
-        <div class="overlay">
-          <h3>Cource Name</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, 
-          nostrum veniam consequatur libero fugiat, similique quis.</p>
-        </div>
-        <div class="overlay">
-          <h3>Cource Name</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, 
-          nostrum veniam consequatur libero fugiat, similique quis.</p>
-        </div>
+  <article id="organisations" class="flex flex-wrap gap-15 justify-evenly items-center bg-gray-100 p-11">
+    <section class="flex flex-wrap justify-center gap-15 max-sm:gap-10">
+      <div class="bg-primary text-center rounded-full rounded-tl-none p-[30px_10px]">
+        <p class="text-white text-[40px]">65%</p>
+        <p class="text-white mb-8">Say No!!</p>
+        <i class="fa-solid fa-person text-[150px] text-white"></i>
+      </div>
+      <div class="bg-primary text-center rounded-full rounded-tl-none p-[30px_10px]">
+        <p class="text-white text-[40px]">20%</p>
+        <p class="text-white mb-8">Says Yes!!</p>
+        <i class="fa-solid fa-person text-[150px] text-white"></i>
+      </div>
+      <div class="bg-primary text-center rounded-full rounded-tl-none p-[30px_10px]">
+        <p class="text-white text-[40px]">15%</p>
+        <p class="text-white mb-8">Can't Say!!</p>
+        <i class="fa-solid fa-person text-[150px] text-white"></i>
       </div>
     </section>
-    <section id="pricing">
-      <h1>Our Pricing</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae,
-      <br>maiores, magni dolorum aliquam.</p>
-      <hr>
-      <div>
-        <div>
-          <h3>Monthly Plan</h3>
-          <hr>
-          <p><sup>$</sup>200</p>
-          <button>PURCHACE</button>
-        </div>
-        <div>
-          <h3>Quarterly Plan</h3>
-          <hr>
-          <p><sup>$</sup>800</p>
-          <button>PURCHACE</button>
-        </div>
-        <div>
-          <h3>Year Plan</h3>
-          <hr>
-          <p><sup>$</sup>1200</p>
-          <button>PURCHACE</button>
-        </div>
+    <section class="max-w-140">
+      <h4 class="text-[40px] font-bold leading-none mb-2 max-sm:text-[30px]">IS INCLUSIVE QUALITY EDUCATION AFFORDABLE?</h4>
+      <h5 class="text-[26px] font-bold text-primary mb-7 max-sm:text-[20px]">(Revised and Updated for 2045)</h5>
+      <p class="leading-normal text-gray-500">Donec et lectus bibendum dolor dictum auctor in ac erat. Vestibulum egestas sollicitudin
+      metus non urna in eros tincidunt convallis id id nisi in interdum.</p>
+    </section>
+  </article>
+  <section class="flex flex-col items-center p-[80px_44px]">
+    <h5 class="text-[26px] font-bold mb-7">Subscribe Now</h5>
+    <p class="text-[24px] text-center text-gray-500 mb-5.5">Sign up for our free weekly software design 
+    courses, we’ll send them right to your inbox.</p>
+    <div>
+      <input name="email" type="email" placeholder="Enter Your Email Addres" class="text-[22px] bg-gray-100 border border-primary rounded-tl-full rounded-bl-full p-[16px_30px] max-sm:text-[18px] max-sm:p-[8px_16px]">
+      <button class="text-[22px] text-white bg-primary border border-primary rounded-tr-full rounded-br-full cursor-pointer transition-all p-[16px_30px] hover:bg-white hover:text-primary max-sm:text-[18px] max-sm:p-[8px_16px]">Subscribe</button>
+    </div>
+  </section>
+  <article class="flex flex-col items-center bg-gray-100 p-11">
+    <h3 class="text-[26px] text-center font-bold mb-7">Upcoming Workshop</h3>
+    <p class="max-w-175 leading-normal text-gray-500 text-center mb-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae, maiores, magni dolorum aliquam.</p>
+    <hr class="w-7.5 h-0.75 bg-blue-600 mb-11">
+    <section class="flex flex-wrap justify-center gap-10">
+      <div class="w-115 h-66 flex flex-col justify-center items-center bg-white border border-gray-300 p-5 max-[550px]:w-full">
+        <i class="fa-brands fa-html5 text-[65px] text-primary mb-5"></i>
+        <h4 class="text-[26px] font-bold text-center">Mentor HTML5 Workshop</h4>
+      </div>
+      <div class="w-115 h-66 flex flex-col justify-center items-center bg-white border border-gray-300 p-5 max-[550px]:w-full">
+        <i class="fa-brands fa-css3 text-[65px] text-primary mb-5"></i>
+        <h4 class="text-[26px] font-bold text-center">Mentor CSS3 Workshop</h4>
+      </div>
+      <div class="w-115 h-66 flex flex-col justify-center items-center bg-white border border-gray-300 p-5 max-[550px]:w-full">
+        <i class="fa-brands fa-joomla text-[65px] text-primary mb-5"></i>
+        <h4 class="text-[26px] font-bold text-center">Mentor Joomla Workshop</h4>
       </div>
     </section>
   </article>
-  <article>
-    <section>
-      <h1>Contact Us</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae,
-      <br>maiores, magni dolorum aliquam.</p>
-      <hr>
-      <div>
-        <div>
-          <input type="text" placeholder="Your Name">
-          <input type="email" placeholder="Your Email">
-          <input type="text" placeholder="Subject">
-          <button>SEND EMAIL</button>
-        </div>
-        <textarea placeholder="Message"></textarea>
+  <article class="flex flex-col items-center p-11">
+    <h3 class="text-[26px] font-bold text-center mb-7">Meet Our Faculty Member</h3>
+    <p class="max-w-175 leading-normal text-gray-500 text-center mb-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae, maiores, magni dolorum aliquam.</p>
+    <hr class="w-7.5 h-0.75 bg-blue-600 mb-11">
+    <section class="flex flex-wrap justify-center gap-20">
+      <div class="max-w-120 flex flex-col items-center">
+        <img class="size-37 object-cover rounded-full mb-1.5" src="assets/images/mentor.jpg" alt="mentor">
+        <h4 class="text-[20px] font-thin text-blue-1 mb-1.5">Bryan Johnson</h4>
+        <h5 class="font-thin mb-1.5">Lead Software Engineer</h5>
+        <p class="text-center">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Donec Et Placerat Dui. 
+        In Posuere Metus Et Elit Placerat Tristique. Maecenas Eu Est In Sem Ullamcorper Tincidunt.</p>
       </div>
-    </section>
-    <section id="freeTrail" class="wow zoomIn">
-      <h1>Start Your Free Trial Now!</h1>
-      <div>
-        <input type="text" placeholder="Enter Your Name">
-        <input type="email" placeholder="Enter Your email">
-        <button>SUBMIT <i class="fa fa-arrow-right"></i></button>
+      <div class="max-w-120 flex flex-col items-center">
+        <img class="size-37 object-cover rounded-full mb-1.5" src="assets/images/mentor.jpg" alt="mentor">
+        <h4 class="text-[20px] font-thin text-blue-1 mb-1.5">Bryan Johnson</h4>
+        <h5 class="font-thin mb-1.5">Lead Software Engineer</h5>
+        <p class="text-center">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Donec Et Placerat Dui. 
+        In Posuere Metus Et Elit Placerat Tristique. Maecenas Eu Est In Sem Ullamcorper Tincidunt.</p>
       </div>
-      <div>
-        <i class="fa fa-twitter fa-fw"></i>
-        <i class="fa fa-facebook fa-fw"></i>
-        <i class="fa fa-google-plus fa-fw"></i>
-        <i class="fa fa-dribbble fa-fw"></i>
-        <i class="fa fa-linkedin fa-fw"></i>
+      <div class="max-w-120 flex flex-col items-center">
+        <img class="size-37 object-cover rounded-full mb-1.5" src="assets/images/mentor.jpg" alt="mentor">
+        <h4 class="text-[20px] font-thin text-blue-1 mb-1.5">Bryan Johnson</h4>
+        <h5 class="font-thin mb-1.5">Lead Software Engineer</h5>
+        <p class="text-center">Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Donec Et Placerat Dui. 
+        In Posuere Metus Et Elit Placerat Tristique. Maecenas Eu Est In Sem Ullamcorper Tincidunt.</p>
       </div>
-      <hr>
-      <p>©2045 Mentor Theme. All rights reserved
-      <br>Designed by <a href="https://bootstrapmade.com/" 
-      target="_blank">BootstrapMade</a></p>
     </section>
   </article>
-  <footer></footer>
+  <article class="flex flex-col items-center bg-gray-900 p-11">
+    <h3 class="text-[26px] font-bold text-center text-white mb-7">See What Our Customer Are Saying?</h3>
+    <p class="max-w-175 leading-normal text-white text-center mb-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae, maiores, magni dolorum aliquam.</p>
+    <hr class="w-7.5 h-0.75 bg-white mb-11">
+    <section class="flex flex-wrap justify-center gap-5">
+      <div class="bg-white p-10">
+        <p class="max-w-113 text-[22px] font-thin text-gray-500 mb-4">"Proin gravida nibh vel velit auctor aliquet. 
+        Aenean sollicitudin, nec sagittis sem"</p>
+        <h4 class="font-thin text-gray-500">Abraham Doe - Creative Dırector</h4>
+      </div>
+      <div class="bg-white p-10">
+        <p class="max-w-113 text-[22px] font-thin text-gray-500 mb-4">"Proin gravida nibh vel velit auctor aliquet. 
+        Aenean sollicitudin, nec sagittis sem"</p>
+        <h4 class="font-thin text-gray-500">Abraham Doe - Creative Dırector</h4>
+      </div>
+    </section>
+  </article>
+  <article id="cources" class="flex flex-col items-center p-11">
+    <h3 class="text-[26px] font-bold mb-7">Courses</h3>
+    <p class="max-w-175 leading-normal text-gray-500 text-center mb-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae,
+    maiores, magni dolorum aliquam.</p>
+    <hr class="w-7.5 h-0.75 bg-blue-1 mb-11">
+    <section class="flex flex-wrap justify-center gap-5">
+      <div class="group w-96.25 h-64 flex flex-col justify-center bg-[url('../assets/images/course-1.jpg')] bg-center bg-cover cursor-pointer transition-all duration-300 p-5 hover:bg-none hover:bg-primary max-[500px]:w-50 max-[500px]:h-33.25">
+        <h4 class="text-[0px] text-white mb-2.5 transition-all group-hover:text-[26px]">Cource Name</h4>
+        <p class="text-[0px] text-white transition-all group-hover:text-[16px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, 
+        nostrum veniam consequatur libero fugiat, similique quis.</p>
+      </div>
+      <div class="group w-96.25 h-64 flex flex-col justify-center bg-[url('../assets/images/course-2.jpg')] bg-center bg-cover cursor-pointer transition-all duration-300 p-5 hover:bg-none hover:bg-primary max-[500px]:w-50 max-[500px]:h-33.25">
+        <h4 class="text-[0px] text-white mb-2.5 transition-all group-hover:text-[26px]">Cource Name</h4>
+        <p class="text-[0px] text-white transition-all group-hover:text-[16px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, 
+        nostrum veniam consequatur libero fugiat, similique quis.</p>
+      </div>
+      <div class="group w-96.25 h-64 flex flex-col justify-center bg-[url('../assets/images/course-3.jpg')] bg-center bg-cover cursor-pointer transition-all duration-300 p-5 hover:bg-none hover:bg-primary max-[500px]:w-50 max-[500px]:h-33.25">
+        <h4 class="text-[0px] text-white mb-2.5 transition-all group-hover:text-[26px]">Cource Name</h4>
+        <p class="text-[0px] text-white transition-all group-hover:text-[16px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, 
+        nostrum veniam consequatur libero fugiat, similique quis.</p>
+      </div>
+      <div class="group w-96.25 h-64 flex flex-col justify-center bg-[url('../assets/images/course-4.jpg')] bg-center bg-cover cursor-pointer transition-all duration-300 p-5 hover:bg-none hover:bg-primary max-[500px]:w-50 max-[500px]:h-33.25">
+        <h4 class="text-[0px] text-white mb-2.5 transition-all group-hover:text-[26px]">Cource Name</h4>
+        <p class="text-[0px] text-white transition-all group-hover:text-[16px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, 
+        nostrum veniam consequatur libero fugiat, similique quis.</p>
+      </div>
+      <div class="group w-96.25 h-64 flex flex-col justify-center bg-[url('../assets/images/course-5.jpg')] bg-center bg-cover cursor-pointer transition-all duration-300 p-5 hover:bg-none hover:bg-primary max-[500px]:w-50 max-[500px]:h-33.25">
+        <h4 class="text-[0px] text-white mb-2.5 transition-all group-hover:text-[26px]">Cource Name</h4>
+        <p class="text-[0px] text-white transition-all group-hover:text-[16px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, 
+        nostrum veniam consequatur libero fugiat, similique quis.</p>
+      </div>
+      <div class="group w-96.25 h-64 flex flex-col justify-center bg-[url('../assets/images/course-6.jpg')] bg-center bg-cover cursor-pointer transition-all duration-300 p-5 hover:bg-none hover:bg-primary max-[500px]:w-50 max-[500px]:h-33.25">
+        <h4 class="text-[0px] text-white mb-2.5 transition-all group-hover:text-[26px]">Cource Name</h4>
+        <p class="text-[0px] text-white transition-all group-hover:text-[16px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, 
+        nostrum veniam consequatur libero fugiat, similique quis.</p>
+      </div>
+    </section>
+  </article>
+  <article id="pricing" class="flex flex-col items-center bg-gray-100 p-11">
+    <h3 class="text-[26px] font-bold mb-7">Our Pricing</h3>
+    <p class="max-w-175 leading-normal text-gray-500 text-center mb-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae,
+    maiores, magni dolorum aliquam.</p>
+    <hr class="w-7.5 h-0.75 bg-blue-1 mb-11">
+    <section class="w-full flex flex-wrap justify-center gap-10">
+      <div class="w-full max-w-75 flex flex-col items-center bg-white border border-gray-500 pt-7.5">
+        <h4 class="text-[26px] font-thin mb-2.5">Monthly Plan</h4>
+        <hr class="w-[90%] bg-black mb-2.5">
+        <p class="text-[46px] text-gray-500 mb-12.5"><sup class="text-[20px]">$</sup>200</p>
+        <button class="w-full h-10 text-white bg-primary border border-primary cursor-pointer transition-all hover:bg-white hover:text-primary">PURCHACE</button>
+      </div>
+      <div class="w-full max-w-75 flex flex-col items-center bg-white border border-gray-500 pt-7.5">
+        <h4 class="text-[26px] font-thin mb-2.5">Quarterly Plan</h4>
+        <hr class="w-[90%] bg-black mb-2.5">
+        <p class="text-[46px] text-gray-500 mb-12.5"><sup class="text-[20px]">$</sup>800</p>
+        <button class="w-full h-10 text-white bg-primary border border-primary cursor-pointer transition-all hover:bg-white hover:text-primary">PURCHACE</button>
+      </div>
+      <div class="w-full max-w-75 flex flex-col items-center bg-white border border-gray-500 pt-7.5">
+        <h4 class="text-[26px] font-thin mb-2.5">Year Plan</h4>
+        <hr class="w-[90%] bg-black mb-2.5">
+        <p class="text-[46px] text-gray-500 mb-12.5"><sup class="text-[20px]">$</sup>1200</p>
+        <button class="w-full h-10 text-white bg-primary border border-primary cursor-pointer transition-all hover:bg-white hover:text-primary">PURCHACE</button>
+      </div>
+    </section>
+  </article>
+  <article id="sign-in" class="flex flex-col items-center p-11">
+    <h3 class="text-[26px] font-bold mb-7">Contact Us</h3>
+    <p class="max-w-175 leading-normal text-gray-500 text-center mb-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae,
+    maiores, magni dolorum aliquam.</p>
+    <hr class="w-7.5 h-0.75 bg-blue-1 mb-11">
+    <section class="max-[490px]:w-full">
+      <div class="flex gap-10 mb-5 max-[930px]:flex-col max-[490px]:w-full">
+        <div class="w-100 flex flex-col items-start gap-5 max-[490px]:w-full">
+          <input type="text" placeholder="Your Name" class="w-full bg-gray-100 border border-gray-300 p-2.5" >
+          <input type="email" placeholder="Your Email" class="w-full bg-gray-100 border border-gray-300 p-2.5" >
+          <input type="text" placeholder="Subject" class="w-full bg-gray-100 border border-gray-300 p-2.5" >
+        </div>
+        <textarea placeholder="Message" class="w-100 h-25 bg-gray-100 border border-gray-300 p-2.5 max-[490px]:w-full"></textarea>
+      </div>
+      <button class="text-white bg-primary border border-gray-300 cursor-pointer transition-all p-[10px_70px] hover:bg-white hover:text-primary">SEND EMAIL</button>
+    </section>
+  </article>
+  <article id="free-trail" class="wow zoomIn flex flex-col items-center bg-black p-11">
+    <h3 class="text-[26px] font-thin tracking-[1px] text-gray-500 text-center mb-9">Start Your Free Trial Now!</h3>
+    <section class="flex flex-wrap gap-5 mb-22.5 max-[900px]:max-w-155 max-[710px]:flex-col max-[390px]:w-full">
+      <input type="text" placeholder="Enter Your Name" class="w-75 text-white bg-gray-900 border-none rounded-4xl outline-none p-[16px_20px] max-[390px]:w-full">
+      <input type="email" placeholder="Enter Your email" class="w-75 text-white bg-gray-900 border-none rounded-4xl outline-none p-[16px_20px] max-[390px]:w-full">
+      <button class="w-max text-white bg-primary border-none rounded-4xl cursor-pointer transition-all p-[10px_40px] hover:bg-white hover:text-primary">SUBMIT <i class="fa-solid fa-arrow-right ml-2"></i></button>
+    </section>
+    <section class="flex flex-wrap justify-center gap-15 max-[550px]:gap-7">
+      <i class="fa-brands fa-twitter text-[30px] text-white cursor-pointer transition-all hover:text-primary"></i>
+      <i class="fa-brands fa-facebook text-[30px] text-white cursor-pointer transition-all hover:text-primary"></i>
+      <i class="fa-brands fa-google-plus text-[30px] text-white cursor-pointer transition-all hover:text-primary"></i>
+      <i class="fa-brands fa-dribbble text-[30px] text-white cursor-pointer transition-all hover:text-primary"></i>
+      <i class="fa-brands fa-linkedin text-[30px] text-white cursor-pointer transition-all hover:text-primary"></i>
+    </section>
+  </article>
+  <footer class="w-full h-43.75"></footer>
 
-  <script src="js/wow.min.js"></script>
+  <script src="wow/index.min.js"></script>
   <script>
     new WOW().init();
   </script>
